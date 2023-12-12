@@ -19,7 +19,7 @@ export default class GymAPI extends APICaller {
      */
     public async getFloorplan(gym_id: number) {
         const response = await this._get(
-            `gyms/${gym_id}/floorplan.svg`,
+            `gyms/${gym_id}/floorplan.svg?8`,
             this._headers
         );
 
