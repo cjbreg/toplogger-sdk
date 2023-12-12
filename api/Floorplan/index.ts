@@ -1,5 +1,4 @@
 import APICaller, { SuccessResponse } from "../caller";
-import { GymData, GymDataPreview, GymNewOld } from "../../Models/Gym";
 
 export default class GymAPI extends APICaller {
     _headers: { [header: string]: string };
