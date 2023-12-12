@@ -2,5 +2,19 @@
     "name": "toplogger-sdk",
     "version": "0.0.1",
     "description": "SDK based on the TopLogger website",
-    "author": "CJBreg"
+    "author": "CJBreg",
+    "scripts": {
+        "lint": "eslint . --ext .ts",
+        "lint:fix": "eslint . --ext .ts --fix"
+    },
+    "devDependencies": {
+        "@owowagency/eslint-config-basic": "^1.2.7",
+        "@types/node": "^20.10.4",
+        "@typescript-eslint/eslint-plugin": "^6.14.0",
+        "@typescript-eslint/parser": "^6.14.0",
+        "eslint": "^8.55.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "prettier": "^3.1.1",
+        "typescript": "^5.3.3"
+    }
 }
