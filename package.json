@@ -1,20 +1,42 @@
 {
-    "name": "toplogger-sdk",
-    "version": "0.0.1",
-    "description": "SDK based on the TopLogger website",
-    "author": "CJBreg",
-    "scripts": {
-        "lint": "eslint . --ext .ts",
-        "lint:fix": "eslint . --ext .ts --fix"
-    },
-    "devDependencies": {
-        "@owowagency/eslint-config-basic": "^1.2.7",
-        "@types/node": "^20.10.4",
-        "@typescript-eslint/eslint-plugin": "^6.14.0",
-        "@typescript-eslint/parser": "^6.14.0",
-        "eslint": "^8.55.0",
-        "eslint-plugin-prettier": "^5.0.1",
-        "prettier": "^3.1.1",
-        "typescript": "^5.3.3"
-    }
+  "name": "@cjbreg/toplogger-sdk",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjbreg/toplogger-sdk.git"
+  },
+  "description": "SDK based on the TopLogger website",
+  "author": "CJBreg",
+  "bugs": {
+    "url": "https://github.com/cjbreg/toplogger-sdk/issues"
+  },
+  "homepage": "https://github.com/cjbreg/toplogger-sdk#readme",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  },
+  "main": "index.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "sdk",
+    "toplogger",
+    "js"
+  ],
+  "license": "ISC"
 }
