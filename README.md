@@ -10,7 +10,7 @@ The SDK provides several classes for interacting with different parts of the Top
 
 Here are some examples of how to use the SDK:
 
-### Fetching a User
+### Fetching a User 👤
 ```ts
 import UserAPI from './api/User';
 
@@ -24,7 +24,7 @@ if (response.ok) {
 }
 ```
 
-### Fetching a Gym
+### Fetching a Gym 🏋️
 ```ts
 import GymAPI from './api/Gym';
 
@@ -38,7 +38,7 @@ if (response.ok) {
 }
 ```
 
-### Fetching Climbs
+### Fetching Climbs 🧗
 ```ts
 import ClimbAPI from './api/Climb';
 
