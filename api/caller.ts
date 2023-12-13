@@ -43,13 +43,17 @@ export default class APICaller {
         // Attempt to parse as JSON
         try {
             responseBody = await response.json();
-        } catch (e) {}
+        } catch (e) {
+            console.log(e);
+        }
 
         if (!responseBody) {
           // Attempt to parse as text
             try {
                 responseBody = await response.text();
-            } catch (e) {}
+            } catch (e) {
+                console.log(e);
+            }
         }
 
         if (!response.ok) {

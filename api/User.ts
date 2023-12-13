@@ -1,6 +1,6 @@
-import { User, UserStats } from "../../Models/User";
-import { appendParams } from "../../helpers/params";
-import APICaller, { SuccessResponse } from "../caller";
+import { User, UserStats } from "../Models/User";
+import { appendParams } from "../helpers/params";
+import APICaller, { SuccessResponse } from "./caller";
 
 
 export default class UserAPI extends APICaller {

@@ -1,7 +1,7 @@
-import { Opinion, OpinionFilters } from "../../Models/Opinion";
-import APICaller, { SuccessResponse } from "../caller";
+import { Opinion, OpinionFilters } from "../Models/Opinion";
+import APICaller, { SuccessResponse } from "./caller";
 
-export default class GroupAPI extends APICaller {
+export default class OpinionAPI extends APICaller {
     _headers: { [header: string]: string };
 
     constructor() {

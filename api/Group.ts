@@ -1,5 +1,5 @@
-import { Group, GroupFilters } from "../../Models/Group";
-import APICaller, { SuccessResponse } from "../caller";
+import { Group, GroupFilters } from "../Models/Group";
+import APICaller, { SuccessResponse } from "./caller";
 
 export default class GroupAPI extends APICaller {
     _headers: { [header: string]: string };

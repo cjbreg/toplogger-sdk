@@ -1,6 +1,6 @@
-import APICaller, { SuccessResponse } from "../caller";
+import APICaller, { SuccessResponse } from "./caller";
 
-export default class GymAPI extends APICaller {
+export default class FloorplanAPI extends APICaller {
     _headers: { [header: string]: string };
 
     constructor() {
