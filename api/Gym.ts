@@ -20,7 +20,7 @@ export default class GymAPI extends APICaller {
      */
     public async getGyms() {
         const response = await this._get(
-            "gyms",
+            "",
             this._headers
         );
 
@@ -39,7 +39,7 @@ export default class GymAPI extends APICaller {
      */
     public async getGym(gym_id: number) {
         const response = await this._get(
-            `gyms/${gym_id}`,
+            `/${gym_id}`,
             this._headers
         );
 
@@ -58,7 +58,7 @@ export default class GymAPI extends APICaller {
      */
     public async getGymNewOld(gym_id: number) {
         const response = await this._get(
-            `gyms/${gym_id}/new_old`,
+            `/${gym_id}/new_old`,
             this._headers
         );
 
