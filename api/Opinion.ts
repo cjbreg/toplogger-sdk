@@ -36,7 +36,7 @@ export default class OpinionAPI extends APICaller {
         const json_params = encodeURIComponent(JSON.stringify(filters));
 
         const response = await this._get(
-            `opinions/?json_params=${json_params}`,
+            `/?json_params=${json_params}`,
             this._headers
         );
 

@@ -47,7 +47,7 @@ export default class AscendAPI extends APICaller {
         const json_params = encodeURIComponent(JSON.stringify(filters));
 
         const response = await this._get(
-            `ascends/?json_params=${json_params}&serialize_checks=${serialize_checks}`,
+            `/?json_params=${json_params}&serialize_checks=${serialize_checks}`,
             this._headers
         );
 

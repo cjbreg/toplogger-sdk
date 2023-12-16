@@ -26,7 +26,7 @@ export default class GroupAPI extends APICaller {
         const json_params = encodeURIComponent(JSON.stringify(filters));
 
         const response = await this._get(
-            `groups/?json_params=${json_params}`,
+            `/?json_params=${json_params}`,
             this._headers
         );
 
