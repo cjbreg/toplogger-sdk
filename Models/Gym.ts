@@ -1,4 +1,4 @@
-interface GymDataPreview {
+interface GymPreview {
     id: number;
     id_name: string;
     slug: string;
@@ -25,7 +25,7 @@ interface GymDataPreview {
     gym_resources: GymResource[];
  }
 
-interface GymData {
+interface Gym {
     id: number;
     id_name: string;
     slug: string;
@@ -159,4 +159,4 @@ interface GymNewOld {
     }
 }
 
-export { GymData, GymDataPreview, GymResource, DistributionValue, OpeningsHours, GymNewOld}
+export { Gym, GymPreview, GymResource, DistributionValue, OpeningsHours, GymNewOld}

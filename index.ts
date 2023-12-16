@@ -7,4 +7,14 @@ import GroupAPI from './api/Group';
 import ClimbAPI from './api/Climb';
 import OpinionAPI from './api/Opinion';
 
-export { APICaller, AscendAPI, GymAPI, UserAPI, FloorplanAPI, GroupAPI, ClimbAPI, OpinionAPI}
+export * from './Models';
+export {
+    APICaller,
+    AscendAPI,
+    GymAPI,
+    UserAPI,
+    FloorplanAPI,
+    GroupAPI,
+    ClimbAPI,
+    OpinionAPI,
+};
