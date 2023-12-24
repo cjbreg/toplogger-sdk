@@ -127,10 +127,7 @@ interface OpeningsHours {
         [key: string]: {
             closed: boolean;
             items: {
-                item1: string;
-                item2: string;
-                item3: string;
-                item4: string;
+                [item: string]: string;
             };
         };
     };
